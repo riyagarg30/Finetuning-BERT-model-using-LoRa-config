@@ -78,10 +78,9 @@ Although AdamW excelled in validation, it overfit the dataset. RMSprop generaliz
 
 ```plaintext
 .
-├── notebook.ipynb             # Full training and evaluation pipeline
+├── rmsprop.ipynb             # Full training and evaluation pipeline
 ├── report.pdf                 # Final project report
 ├── submission_RMSprop.csv     # Final predictions for Kaggle
 ├── test_unlabelled.pkl        # Unlabeled test dataset (from competition)
-├── requirements.txt           # Python dependencies
 ├── README.md                  # This file
 ├── results/                   # Saved LoRA adapter weights (optional)
